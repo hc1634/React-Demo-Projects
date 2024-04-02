@@ -1,0 +1,59 @@
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-image: linear-gradient(#4caf50, #2196f3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-container h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding: 30px;
+}
+.input-element {
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  background-color: #ffffff;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding: 0 10px;
+  text-align: right;
+}
+.description {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.description span {
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.button-row {
+  margin-bottom: 10px;
+}
+.calc-button {
+  margin: 5px;
+  padding: 15px 25px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #2196f3;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.calc-button:hover {
+  background-color: #1976d2;
+}
